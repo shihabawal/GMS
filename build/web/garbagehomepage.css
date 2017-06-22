@@ -1,0 +1,385 @@
+
+
+body{
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 15px;
+line-height: 1.5;
+padding: 0;
+margin: 0;
+background-color: #fff;
+}
+
+
+header{
+background: #fff;
+color: #545454;
+padding-top: 30px;
+min-height: 70px;
+border-bottom: #35424a 3px solid;
+
+}
+
+.container{
+width:88%;
+margin:auto;
+overflow:hidden;
+}
+
+.container h3{
+margin-right: 50px;
+}
+
+.container a:hover{
+border-bottom:3px solid #3399cc;
+}
+
+header a{
+color:#545454;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20px;
+
+
+}
+
+header ul{
+margin:0;
+padding: 0;
+}
+
+header li{
+float:left;
+display:inline;
+padding: 0 20px 0 20px;
+}
+
+header #branding{
+float:left;
+}
+
+header #branding h1{
+
+margin:0;
+
+}
+
+header nav{
+float:right;
+margin-top: 10px;
+}
+
+header .highlight, header .current a{
+color: #578d5c;
+
+}
+
+
+header .current a:hover{
+color: #2a85a1
+
+}
+#navmenu {
+margin: auto;
+padding: auto;
+}
+
+
+#navmenu ul li li  a {
+text-align: center;
+background-color: #fff;
+display: block;
+border: 1px solid #35424a;
+width: 200;
+padding: 5;
+}
+
+
+#navmenu ul ul  {
+position: absolute;
+visibility: hidden;
+
+padding: auto;
+margin: auto;
+}
+
+#navmenu ul li:hover ul{
+
+visibility: visible;
+padding: auto;
+margin: auto;
+}
+
+
+/* showcase */
+
+
+#showcase{
+margin: 0px;
+padding-top: 0px;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('./1.jpg') no-repeat 0 -50px;
+background-size: cover;
+text-align: center;
+color: #fff;
+}
+
+#showcase h1 {
+margin: auto;
+font-size: 50px;
+line-height:110px;
+text-shadow:2px 2px 4px #000000;
+}
+
+#showcase p {
+
+font-size : 15px;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 30px;
+text-shadow:1px 1px 2px #000000;
+}
+
+.button1{
+height: 0px;
+background: #404040;
+border: 0;
+color: #fff;
+}
+
+
+
+ #showcase button{
+padding: 0px;
+height: 30px;
+width:100px;
+margin-top: 150px;
+ }
+
+
+
+#container{    
+padding: 0px;
+color: #fff;
+background: #35424a;
+}
+
+#container h1 {
+
+float: left;
+font-weight: lighter;
+
+}
+
+ #container form{
+float: right;
+margin-top: 20px;
+
+ }
+
+#container input{
+
+padding: 3px;
+height: 28;
+width: 250px;
+
+}
+
+.button2{
+height: 28px;
+background: #3399cc;
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color: #fff;
+}
+
+
+#desc{
+float: left;
+width: 100;
+padding: 80;
+margin: 10px ;
+background-color: #fff;
+color: #545454;
+border-style: solid;
+border-color: #35424a;
+
+
+}
+ #desc h3 {
+font-size: 22px;
+padding: 0;
+    
+ }
+
+#table1{
+margin: 50px ;
+padding: 10px;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 27px;
+}
+th {
+    background-color: #dddddd;
+}
+
+
+.container2{
+
+ margin: 80px auto;
+  width: 640px;
+}
+
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -8px; right: -8px; bottom: -8px; left: -8px;
+    z-index: -1;
+    background: rgba(black, .08);
+    border-radius: 4px;
+  }
+
+
+h1 {
+    margin: -20px -20px 21px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    text-shadow: 0 1px white;
+    background: #f3f3f3;
+    border-bottom: 1px solid #cfcfcf;
+    border-radius: 3px 3px 0 0;
+    @include linear-gradient(top, whiteffd, #eef2f5);
+    @include box-shadow(0 1px #f5f5f5);
+  }
+
+  p { margin: 20px 0 0; }
+  p:first-child { margin-top: 0; }
+
+  input[type=text], input[type=password] { width: 278px; }
+
+  p.remember_me {
+    float: left;
+    line-height: 31px;
+
+    label {
+      font-size: 12px;
+      color: #777;
+      cursor: pointer;
+    }
+
+    input {
+      position: relative;
+      bottom: 1px;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+  }
+
+  p.submit { text-align: right; }
+}
+
+.login-help {
+  margin: 20px 0;
+  font-size: 11px;
+  color: black;
+  text-align: center;
+  text-shadow: 0 1px #2a85a1;
+
+  a {
+    color: #cce7fa;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+  font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px; // Can we get this on WebKit please?
+  @include box-shadow(inset 0 1px 3px rgba(black, .12));
+
+  &:focus {
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0; // WebKit sets this to -1 by default
+  }
+}
+
+input[type=submit] {
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
+  @include box-sizing(content-box); // Firefox sets this to border-box by default
+  @include linear-gradient(top, #edf5f8, #cde5ef);
+  @include box-shadow(inset 0 1px white, 0 1px 2px rgba(black, .15));
+
+  &:active {
+    background: #cde5ef;
+    border-color: #9eb9c2 #b3c0c8 #b4ccce;
+    @include box-shadow(inset 0 0 3px rgba(black, .2));
+  }
+}
+
+.lt-ie9 {
+  input[type=text], input[type=password] { line-height: 34px; }
+}
+
+
+#addbin{
+margin: 100px;
+padding: 0px;
+size: 20px;
+}
+
+#addbin fieldset{
+display: 100%;
+
+}
